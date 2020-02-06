@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">PubQuiz</string>
+    <string name="select_quiz_category">Select quiz category</string>
+    <string name="submit_answer">Submit answer</string>
+    <string name="total_score">Total score</string>
+    <string name="try_again">Try again</string>
+    <string name="log_out">Log out</string>
+    <string name="welcome_to_pub_quiz">Welcome to Pub quiz</string>
+</resources>

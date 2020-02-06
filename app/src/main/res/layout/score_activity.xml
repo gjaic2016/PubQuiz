@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#96ccff">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/total_score"
+        android:textSize="42sp"
+        android:layout_margin="32dp"
+        android:textColor="@android:color/black"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/total_score"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textSize="42sp"
+        android:gravity="center"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        tools:text="3" />
+
+    <TextView
+        android:id="@+id/try_again"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/item_background"
+        android:padding="5dp"
+        android:textColor="@android:color/black"
+        android:textAlignment="center"
+        android:text="@string/try_again"
+        android:layout_margin="15dp"
+        android:textSize="32sp" />
+
+    <TextView
+        android:id="@+id/log_out"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/item_background"
+        android:padding="5dp"
+        android:textColor="@android:color/black"
+        android:textAlignment="center"
+        android:text="@string/log_out"
+        android:layout_margin="15dp"
+        android:textSize="32sp" />
+
+</LinearLayout>
